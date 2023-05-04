@@ -43,7 +43,7 @@ table .type {
 }
 
 table .amount {
-    max-width: 90%;
+    max-width: 70%;
     min-height: 2.4rem;
     border: 2px solid rgba(0, 0, 0, 0.1);
     border-radius: 6px;
