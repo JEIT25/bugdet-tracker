@@ -38,7 +38,8 @@ function createEntry(button) {
             section.appendChild(date);
             transactHistory.appendChild(section);
         } else {
-            alert('Not ENough Balance')
+            alert('Not Enough Balance');
+            alert('Maong waka pilia!');
         }
         userInputAmount.value = '';
     });
