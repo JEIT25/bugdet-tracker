@@ -30,8 +30,8 @@ function createEntry(button) {
             balance.innerHTML = parseFloat(balance.innerText) - parseFloat(userInputAmount.value);
             amount.classList.add('color1');
             section.classList.add('data');
-            type.innerText = `Amount ${entryType.value}`;
-            amount.innerText = `Type ${userInputAmount.value}`;
+            type.innerText = `Type ${entryType.value}`;
+            amount.innerText = `Amount ${userInputAmount.value}`;
             date.innerText = `Date ${todayDate}`;
             section.appendChild(type);
             section.appendChild(amount);
